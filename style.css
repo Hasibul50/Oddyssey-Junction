@@ -40,7 +40,7 @@ html {
     font-weight: 800;
 }
 
-.paragraph_description {
+.P_description {
     color: var(--third-color);
     font-size: 1.5rem;
     font-weight: 400;
