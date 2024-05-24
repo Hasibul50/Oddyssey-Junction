@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 /*! VARIABLES STORED HERE  */
@@ -34,7 +34,7 @@ html {
     cursor: pointer;
 }
 
-.medium_header {
+.popular_tours_header {
     color: var(--secondary-color);
     font-size: 3.2rem;
     font-weight: 800;
@@ -47,7 +47,7 @@ html {
     line-height: 22px;
 }
 
-.header-holder {
+.Whole-container {
     max-width: 1170px;
     margin: 30px auto;
 }
@@ -123,10 +123,10 @@ header nav h2 img {
     height: 500px;
     color: #fff;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("images/Group\ 13\ \(1\)\ \(1\).png");
 }
 
-.header-inside {
+.header_content-area{
     max-width: 670px;
     display: flex;
     flex-direction: column;
@@ -134,16 +134,16 @@ header nav h2 img {
     text-align: center;
 }
 
-.header-inside h1 {
+.header_content-area h1 {
     font-size: 6rem;
     font-weight: 800;
 }
 
-.header-inside p {
+.header_content-area p {
     padding: 19px 0px;
 }
 
-.bttn-box {
+.button_content {
     display: flex;
     gap: 12px;
     border-radius: 8px;
@@ -151,7 +151,7 @@ header nav h2 img {
     padding: 16px;
 }
 
-.bttn-box button {
+.button_content button {
     width: 150px;
     height: 45px;
     border-radius: 8px;
@@ -162,16 +162,13 @@ header nav h2 img {
     border: none;
 }
 
-.bttn-box button p {
+.button_content button p {
     color: rgba(19, 19, 24, 0.50);
     font-size: 1.5rem;
     font-weight: 400;
 }
-.invisible{
-    visibility:hidden ;
-}
 
-/*! OUR POPULAR TOURS  */
+/* OUR POPULAR TOURS  */
 .popular_tours {
     display: flex;
     justify-content: space-between;
@@ -395,6 +392,7 @@ header nav h2 img {
 
 /*! NEWSLETTER  */
 
+/* dont mind class name in this section, i mistakenly give name from other section  */
 
 .a_perfect_place {
     display: flex;
@@ -422,17 +420,17 @@ header nav h2 img {
     padding: 15px 0px 30px;
 }
 
-.rightside_img_perfect {
+.rightside_image {
     max-width: 660px;
     position: relative;
 }
 
-.rightside_img_perfect img {
+.rightside_image img {
     /* width: 100%; */
     z-index: 0;
 }
 
-.rightside_img_perfect button {
+.rightside_image button {
     position: absolute;
     transform: rotate(-30deg);
     right: -20px;
@@ -555,7 +553,7 @@ hr {
     margin: 40px 0px;
 }
 
-.icons {
+.footer-icons {
     display: flex;
     gap: 30px;
     font-size: 18px;
@@ -662,11 +660,11 @@ hr {
         margin-top: 40px;
     }
 
-    .header_content h1 {
+    .header_content-area h1 {
         font-size: 22px;
     }
 
-    .header_content p {
+    .header_content-area p {
         width: 280px;
         margin: auto;
     }
@@ -790,11 +788,11 @@ hr {
         flex-direction: column;
     }
 
-    .rightside_img_perfect {
+    .rightside_image {
         width: 90%;
     }
 
-    .rightside_img_perfect img {
+    .rightside_image img {
         width: 90%;
         margin: auto;
     }
@@ -810,12 +808,12 @@ hr {
         margin: auto;
     }
 
-    .rightside_img_perfect {
+    .rightside_image {
         width: 90%;
         margin: auto;
     }
 
-    .rightside_img_perfect img {
+    .rightside_image img {
         width: 100%;
         height: 300px;
 
@@ -837,7 +835,7 @@ hr {
         margin-top: 20px;
     }
 
-    .rightside_img_perfect button {
+    .rightside_image button {
         position: absolute;
         transform: rotate(-30deg);
         right: -0px;
@@ -963,13 +961,13 @@ hr {
         margin: auto;
     }
 
-    .rightside_img_perfect {
+    .rightside_image{
         width: 52%;
         margin: auto;
 
     }
 
-    .rightside_img_perfect img {
+    .rightside_image img {
         width: 100%;
     }
 
