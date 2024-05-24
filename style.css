@@ -210,6 +210,11 @@ header nav h2 img {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+}
+.destination_image_container img {
+    width: 474px;
+    height: 220px;
 }
 
 .destination_image_container div {
